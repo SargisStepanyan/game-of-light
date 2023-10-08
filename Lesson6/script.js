@@ -84,17 +84,17 @@ function draw() {
     for (var i in grassArr) {
         grassArr[i].mul();
     }
-    for (var i in grassEaterArr) {
-        grassEaterArr[i].eat();
-    }
-    for (var i in predatorArr) {
-        predatorArr[i].eat();
-    }
-    setInterval(() => {
-        for (var i in bombArr) {
-            bombArr[i].boom()
-        } 
-    }, 10000);
+    // for (var i in grassEaterArr) {
+    //     grassEaterArr[i].eat();
+    // }
+    // for (var i in predatorArr) {
+    //     predatorArr[i].eat();
+    // }
+    // setInterval(() => {
+    //     for (var i in bombArr) {
+    //         bombArr[i].boom()
+    //     } 
+    // }, 10000);
 
     
 }
