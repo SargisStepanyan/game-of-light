@@ -1,4 +1,4 @@
-class Bomb {
+module.exports = class Bomb {
     constructor(x, y, index) {
         this.x = x;
         this.y = y;

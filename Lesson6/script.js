@@ -2,6 +2,10 @@ var matrix = [];
 var side = 60;
 var n = 12;
 var m = 18;
+Bomb = require('./bomb.js')
+Predator = require('./predator.js')
+GrassEater = require('./grassEater.js')
+Grass = require('./class.js')
 
 for (let i = 0; i<n; i++) {
     matrix.push([])
@@ -31,7 +35,6 @@ function setup() {
     frameRate(5);
     createCanvas(matrix[0].length * side, matrix.length * side);
     background('#acacac');
-    var gr = new Grass(1, 2)
     for (var y = 0; y < matrix.length; ++y) {
         for (var x = 0; x < matrix[y].length; ++x) {
             if (matrix[y][x] == 1) {
