@@ -15,6 +15,7 @@ module.exports = class Grass extends LivingCreature {
     
 
 }
+let random = require("./random");
 
 // class Grass extends LivingCreature {
 //     mul() {

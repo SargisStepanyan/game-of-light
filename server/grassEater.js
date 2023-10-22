@@ -96,6 +96,7 @@ module.exports = class GrassEater {
             }
     
 
+            
 }
-
+let random = require("./random");
 

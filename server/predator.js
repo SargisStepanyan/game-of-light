@@ -97,6 +97,6 @@ module.exports = class Predator {
     
             
 }
-
+let random = require("./random");
 
 
